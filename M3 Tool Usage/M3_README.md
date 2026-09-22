@@ -11,6 +11,7 @@ pip install aisuite openai python-dotenv jupyter ipykernel
 ```
 
 Then: Cmd+Shift+P → "Python: Select Interpreter" → choose .venv, then restart the notebook kernel.
+Select cell, ryn by "Ctrl + Enter"
 
 ## Module summary
 
