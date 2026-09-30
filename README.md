@@ -20,6 +20,9 @@ python -m venv venv        # create virtual env
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt  # Install dependencies
+
+# open .env.example and add your openrouter API token
+# rename .env.example => .env
 ```
 
 Check README and repeat the above steps if needed for each module.
