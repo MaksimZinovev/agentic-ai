@@ -6,7 +6,7 @@
 
 | Col1 | Original repo         | This fork                                                                      |
 | ---------- | --------------------- | ------------------------------------------------------------------------------ |
-| 1    | Uses OpenAI provider  | openrouter.ai                                                                  |
+| 1    | Uses OpenAI provider           | openrouter.ai                                                                  |
 | 2    | Usess model "gpt-4.1" | "openrouter:google/gemma-3-27b-it"                                             |
 | 3   | -                     | added "M3 Tool Usage/Ungraded Lab Turning functions into tools/M3_UGL_2.ipynb" |
 
