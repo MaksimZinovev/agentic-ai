@@ -1,0 +1,2 @@
+# === Agent + LLM Tools ===
+qrcode

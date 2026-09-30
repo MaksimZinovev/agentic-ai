@@ -13,6 +13,8 @@ pip install aisuite openai python-dotenv jupyter ipykernel
 Then: Cmd+Shift+P → "Python: Select Interpreter" → choose .venv, then restart the notebook kernel.
 Select cell, ryn by "Ctrl + Enter"
 
+
+
 ## Module summary
 
 This module dives into the use of tools within agentic workflows, covering paradigms that include defining tool sets and instructing AI on tool calls. It explores syntaxes like the OpenAI and AI Suite open-source package syntaxes, and discusses emerging paradigms where AIs execute code (e.g., Python) to interface with tools.

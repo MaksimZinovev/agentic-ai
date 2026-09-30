@@ -120,3 +120,7 @@ Each module contains:
 ---
 
 *Ready to build the next generation of intelligent agents? Start with Module 2 and work through the progression of increasingly sophisticated agentic patterns.* 🚀
+
+## Lessons learned
+
+My personal notes and learnings, polease see in 
