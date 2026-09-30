@@ -1,6 +1,28 @@
 # 🤖 Agentic AI Patterns - DeepLearning.AI Course
 
-> *Master the art of building intelligent, autonomous AI agents with Andrew Ng's comprehensive course on Agentic Design Patterns*
+> _Master the art of building intelligent, autonomous AI agents with Andrew Ng's comprehensive course on Agentic Design Patterns_
+
+## How this for is different
+
+| Col1 | Original repo         | This fork                                                                      |
+| ---- | --------------------- | ------------------------------------------------------------------------------ |
+| 1    | Uses OpenAI provider  | openrouter.ai                                                                  |
+| 2    | Usess model "gpt-4.1" | "openrouter:google/gemma-3-27b-it"                                             |
+| 3   | -                     | added "M3 Tool Usage/Ungraded Lab Turning functions into tools/M3_UGL_2.ipynb" |
+
+## Getting started
+
+```shell
+# MacOS, Linux
+cd agentic-ai
+python --version           # verify that python is installed
+python -m venv venv        # create virtual env
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+pip install -r requirements.txt  # Install dependencies
+```
+
+Check README and repeat the above steps if needed for each module.
 
 ## 🎯 Course Overview
 
@@ -9,6 +31,7 @@ This repository contains the complete coursework, lab assignments, and practical
 ## 📚 Module Structure
 
 ### 🔄 [Module 2: Reflection Design Pattern](./M2%20Reflection%20Design%20Pattern/)
+
 **Master self-improving AI systems through iterative critique and refinement**
 
 ![Reflection Workflow](./M2%20Reflection%20Design%20Pattern/ungraded-lab/Chart%20Generation/pipeline.png)
@@ -21,6 +44,7 @@ This repository contains the complete coursework, lab assignments, and practical
   - 💾 **SQL Agent**: Self-correcting database query generation
 
 ### 🛠️ [Module 3: Tool Usage Design Pattern](./M3%20Tool%20Usage/)
+
 **Empower AI agents with external tools and function calling capabilities**
 
 ![Tool Integration](./agentic-ai-public/static/how_interactions_are_performed.png)
@@ -33,6 +57,7 @@ This repository contains the complete coursework, lab assignments, and practical
   - 🗄️ **SQL Agent**: Database interaction and schema exploration tools
 
 ### 🎯 [Module 4: Practical Tips for Building Agents](./M4%20Practical%20Tips%20for%20Building%20Agents/)
+
 **Production-ready strategies for robust AI agent development**
 
 ![Research Agent Pipeline](./M4%20Practical%20Tips%20for%20Building%20Agents/M4-UGL-1.png)
@@ -44,6 +69,7 @@ This repository contains the complete coursework, lab assignments, and practical
   - 🏗️ **Production Patterns**: Scalable architecture design
 
 ### 🤝 [Module 5: Multi-Agent Collaboration](./M5%20Patterns%20for%20Highly%20Scalable%20Agents/)
+
 **Orchestrate multiple specialized agents for complex problem solving**
 
 - **Core Concept**: Dividing complex tasks across specialized agent teams
@@ -55,11 +81,13 @@ This repository contains the complete coursework, lab assignments, and practical
 ## 🚀 Production-Ready Implementation
 
 ### [Reflective Research Agent](./agentic-ai-public/)
+
 **Full-stack FastAPI application demonstrating production agentic patterns**
 
 **Tech Stack**: FastAPI, PostgreSQL, Docker, Jinja2, Tavily API, arXiv API, Wikipedia API
 
 **Features**:
+
 - 🔄 **Multi-step Planning**: Intelligent research workflow orchestration
 - 🔍 **Tool Integration**: Tavily search, arXiv papers, Wikipedia lookup
 - 📊 **Real-time Tracking**: Live progress monitoring via WebSocket
@@ -67,6 +95,7 @@ This repository contains the complete coursework, lab assignments, and practical
 - 🌐 **Web Interface**: Clean UI for research task initiation
 
 **Quick Start**:
+
 ```bash
 # Build and run the complete research agent
 docker build -t fastapi-postgres-service .
@@ -79,14 +108,16 @@ open http://localhost:8000
 ## 🎨 Key Workflow Visualizations
 
 ### Chart Generation with Reflection
+
 ![Chart Generation Workflow](./M2%20Reflection%20Design%20Pattern/ungraded-lab/Chart%20Generation/M2-UGL-2.png)
 
-*Demonstrates iterative improvement: Initial code → Execution → Critique → Refinement → Final output*
+_Demonstrates iterative improvement: Initial code → Execution → Critique → Refinement → Final output_
 
 ### Research Agent Architecture
+
 ![Research Agent Flow](./agentic-ai-public/static/how_interactions_are_performed.png)
 
-*Shows tool orchestration: User Query → Planning → Tool Selection → Execution → Report Generation*
+_Shows tool orchestration: User Query → Planning → Tool Selection → Execution → Report Generation_
 
 ## 💡 Learning Outcomes
 
@@ -108,6 +139,7 @@ After completing this course, you'll master:
 ## 📖 Course Structure
 
 Each module contains:
+
 - 📹 **Video Content**: Comprehensive explanations of design patterns
 - 🧪 **Ungraded Labs**: Hands-on practice with guided implementation
 - ✅ **Graded Labs**: Assessment-ready projects with solution guides
@@ -119,8 +151,8 @@ Each module contains:
 
 ---
 
-*Ready to build the next generation of intelligent agents? Start with Module 2 and work through the progression of increasingly sophisticated agentic patterns.* 🚀
+_Ready to build the next generation of intelligent agents? Start with Module 2 and work through the progression of increasingly sophisticated agentic patterns._ 🚀
 
 ## Lessons learned
 
-My personal notes and learnings, polease see in 
+My personal notes and learnings, polease see in

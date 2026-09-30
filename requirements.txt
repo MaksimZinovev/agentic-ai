@@ -1,2 +1,3 @@
 # === Agent + LLM Tools ===
 qrcode
+qrcode[pil]
